@@ -29,8 +29,11 @@ include "../infra/conexao.php";
     <br><br>
     <button type=submit>Cadastrar</button>
 </form>
+    <br>
 
 <hr>
+
+<h2>Cadastre os Produtos:</h2>
 
 <form action="treino.php" method="POST">
     <label for="nome">Nome:</label>
