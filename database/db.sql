@@ -1,0 +1,15 @@
+CREATE DATABASE banco_treino;
+USE banco_treino;
+
+CREATE TABLE usuario (
+    id INT PRIMARY KEY AUTO_INCREMENT, 
+    nome VARCHAR(200) NOT NULL,
+    email VARCHAR(200) NOT NULL
+);
+
+CREATE TABLE produto (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(200) NOT NULL,
+    preco DECIMAL(10, 2) NOT NULL
+);
+
